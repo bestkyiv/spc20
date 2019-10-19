@@ -1,12 +1,37 @@
 /*==============================================================
 Write your style here
 ============================================================== */
+@import 'now-ui-kit/variables';
 
-html {
-  scroll-behavior: smooth;
+.title {
+  span {
+    color: $primary-color;
+  }
 }
 
-.quote {
-    width: 260px !important;
-    right: 0px !important;
+.btn-primary:hover {
+  background-color: $primary-light-color;
+  color: #FFFFFF;
+}
+
+.btn-action {
+  min-width: 250px;
+}
+
+.m-b-60 {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 992px){
+
+}
+.section-story-overview p.blockquote.quote {
+  position: static;
+  margin: 0 auto 50px;
+  width: 80%;
+}
+.video-link{
+  text-decoration: underline;
+  font-size: 2em;
+  padding: 0;
 }

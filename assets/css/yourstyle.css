@@ -1,13 +1,35 @@
 /*==============================================================
 Write your style here
 ============================================================== */
-html {
-  scroll-behavior: smooth;
+/*     brand Colors              */
+/*      light colors         */
+.title span {
+  color: #f85044;
 }
 
-.quote {
-  width: 260px !important;
-  right: 0px !important;
+.btn-primary:hover {
+  background-color: #fb9790;
+  color: #FFFFFF;
+}
+
+.btn-action {
+  min-width: 250px;
+}
+
+.m-b-60 {
+  margin-bottom: 60px;
+}
+
+.section-story-overview p.blockquote.quote {
+  position: static;
+  margin: 0 auto 50px;
+  width: 80%;
+}
+
+.video-link {
+  text-decoration: underline;
+  font-size: 2em;
+  padding: 0;
 }
 
 /*# sourceMappingURL=yourstyle.css.map */
